@@ -28,6 +28,6 @@ app.use((req, res) => {
 
 // ── Start ───────────────────────────────────────────────────────────────────
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`✅  Backend running on http://localhost:${PORT}`);
+  console.log(`✅  Backend running on http://54.161.96.47:${PORT}`);
   console.log(`📁  Storing tasks in: src/data/tasks.json`);
 });
